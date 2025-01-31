@@ -1,0 +1,38 @@
+.back {
+  .just-center {
+    display: flex;
+    align-items: center;
+  }
+
+  @extend .just-center;
+  justify-content: space-between;
+  padding: 13px 13px 0;
+
+  .navigate {
+    @extend .just-center;
+
+    .back-btn {
+      &:hover {
+        cursor: pointer;
+
+        svg {
+          g#Rectangle_new {
+            stroke: yellow;
+          }
+
+          path#Path_new {
+            stroke: yellow;
+          }
+        }
+      }
+    }
+
+    .title {
+      text-align: left;
+      font-size: 18px;
+      font-weight: 500;
+      color: $normal-black;
+      padding-inline-start: 10px;
+    }
+  }
+}
