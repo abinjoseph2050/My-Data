@@ -149,3 +149,6 @@ violet background: transparent linear-gradient(221deg, #FFFFFF 0%, #F8F0FD 100%)
 grey background: transparent linear-gradient(221deg, #FFFFFF 0%, #EDEFF5 100%) 0% 0% no-repeat padding-box;
 
 https://xd.adobe.com/view/d5275401-80b7-46ac-8190-da8cf07a27f8-8074/specs/
+https://xd.adobe.com/view/a7250466-c61e-4a23-8296-cf6261334b03-f276/specs/
+https://xd.adobe.com/view/7ed5920f-c7ae-42ad-9c17-a73979d415bb-2b86/screen/3d8c7828-b8b8-42af-bcce-08854674dc12/specs/
+https://xd.adobe.com/view/a7250466-c61e-4a23-8296-cf6261334b03-f276/
