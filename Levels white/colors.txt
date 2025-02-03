@@ -1,0 +1,6 @@
+blue #4880FB
+green #4FC369
+red #E65454
+yellow #EB840C
+violet #87629F
+grey #68728A
