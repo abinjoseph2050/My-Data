@@ -1,0 +1,34 @@
+Test Management governance
+Does your team have a well defined definition of done for work items within sprint?
+Do you have documented test plan for project/release work?
+Are you using QMO defined tools(JIRA, Zephyr, Confluence etc.) for test related work?
+Do you measure effectiveness of tools deployed and provide recommnedations for improvements?
+Does your team engage in POC for implementing new tools & standards to make improvements?
+
+
+test Automstion
+Are you following QMO established Test Automation Strategy and guidelines for test automation?
+Is Automation testing carried out as part of the definition of done for identified/scoped test automation user stories?
+Are you conducting full stack (All layer focus i.e UI, API/MW & DB/Backend) test automation?
+<5% failures due to script/environment issues; Self Healing & capability in terms of adhoc failures
+
+TDM
+Are Test data requirements elicited, documented & prioritized by team?
+Are specific data sets identified and tagged to test cases? Are sources of test data identified? 
+Is TDM work estimated and dependencies on test data considered while creating the project plan?
+Are you using any advanced self service capability for TDM?
+Is PII(personally identifiable information) data masked when used in non-production environments?
+
+TEM
+Do you have at least one dedicated test environment to conduct functional testing of application?
+Do you have separate test environments to conduct different types of testing (i.e Functional, SIT & UAT)?
+Do you have production like (Fully integrated with other systems) test environment(s) for SIT/UAT/PT?
+Do you have production like (Fully integrated with other systems, similar infra and data volume) test environment(s) for SIT/UAT/PT?
+Is TEMS Portal available for environment booking & Contention management?
+
+Perfomance Testing
+Are NFR gathered & documented for every release of a project?
+Are crtitcal performance tests(Stress, Volume, spike & Load etc.) automated and triggered manually to address NFR validation needs?
+Are PT scripts integrated with tools like Jenkins for scheduled or manual runs?
+Does the PE team have access to the respective domain production monitoring tools
+Does the PE team have access to the respective domain production monitoring tools
