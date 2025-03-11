@@ -4,6 +4,12 @@ Do you have documented test plan for project/release work?
 Are you using QMO defined tools(JIRA, Zephyr, Confluence etc.) for test related work?
 Do you measure effectiveness of tools deployed and provide recommnedations for improvements?
 Does your team engage in POC for implementing new tools & standards to make improvements?
+Do we have a common central requirement repository for managing requirements with requirement revision history?
+Are you tracking your project via BI Dashboard(defined by QMO) to check work effectiveness? 
+Are you following QMO established defect management  life cycle process?
+Are you tracking testing related risks via any mode?
+Do you have Knowledge Management(KM Plan) inline with QMO guidelines for knowledge capture, storing/publishing, and maintenance?
+
 
 
 test Automstion
@@ -11,6 +17,13 @@ Are you following QMO established Test Automation Strategy and guidelines for te
 Is Automation testing carried out as part of the definition of done for identified/scoped test automation user stories?
 Are you conducting full stack (All layer focus i.e UI, API/MW & DB/Backend) test automation?
 <5% failures due to script/environment issues; Self Healing & capability in terms of adhoc failures
+>=25% automatable regression suite is automated
+Is part of your automation scripts integrated with Jenkins for scheduled or manual runs?
+Have you implemented basic Service Virtualization( Stubs / mocks only) to overcome dependencies?
+Do you have understanding of SV & advance automation enablers to increase testing effectiveness?
+Are you conducting full stack (All layer focus i.e UI, API/MW & DB/Backend) test automation?
+Have you implemented basic Service Virtualization( Stubs / mocks only) to overcome dependencies?
+
 
 TDM
 Are Test data requirements elicited, documented & prioritized by team?
@@ -18,6 +31,13 @@ Are specific data sets identified and tagged to test cases? Are sources of test 
 Is TDM work estimated and dependencies on test data considered while creating the project plan?
 Are you using any advanced self service capability for TDM?
 Is PII(personally identifiable information) data masked when used in non-production environments?
+Is your team able to mine/generate test data with the help of other teams like development/ environment/ production support teams?
+Are data masking tools used to desensitize data with varying strategies for all PII data categories/ types in lower environments?
+Are you aware of PII(personally identifiable information) & data compliance requirements?
+Is TDM strategy defined for test data needs & Test data non-availability is considered a risk in the project and mitigated/tracked in the project?
+"Does the testing team have their own automated methods/ procedures/ utilities to edit/ create data on a need basis?
+Are Test Data maintenance activities performed after the testing cycle is complete for reuse?"
+
 
 TEM
 Do you have at least one dedicated test environment to conduct functional testing of application?
@@ -25,10 +45,23 @@ Do you have separate test environments to conduct different types of testing (i.
 Do you have production like (Fully integrated with other systems) test environment(s) for SIT/UAT/PT?
 Do you have production like (Fully integrated with other systems, similar infra and data volume) test environment(s) for SIT/UAT/PT?
 Is TEMS Portal available for environment booking & Contention management?
+Do we have documented environment composition details (like Domain/ Server/ Applications)  at a single place or in CMDB?
+Is documented E2E view available with respect to environment flow/integrations?
+Do you have production like (Fully integrated with other systems, similar infra and data volume) test environment(s) for SIT/UAT/PT?
+Is TEM aspects(as per defined QMO guidelines) included in your ovearll test strategy?
+
 
 Perfomance Testing
 Are NFR gathered & documented for every release of a project?
 Are crtitcal performance tests(Stress, Volume, spike & Load etc.) automated and triggered manually to address NFR validation needs?
 Are PT scripts integrated with tools like Jenkins for scheduled or manual runs?
 Does the PE team have access to the respective domain production monitoring tools
-Does the PE team have access to the respective domain production monitoring tools
+"Is JIRA used for NFR documentation?
+Is risk based analysis performed for each NFR?"
+Is NFR Plan covering Scope, approach, risk etc. prepared, reviewed and signed off by Infrastructure, Design and BA team for every release?
+"Is predictive analysis performed for Performance Test requirements?
+Is performance testing team involved during requirement planning exercise?"
+"Is bottleneck identification conducted for performance tests?
+Are tuning changes recommended to fix/improve performance issues?"
+
+
