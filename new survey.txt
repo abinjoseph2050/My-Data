@@ -1,0 +1,30 @@
+border: 1px dashed #68728A;
+
+yellow grad
+  background: transparent linear-gradient(221deg, #FFFFFF 0%, #FFF2E3 100%) 0% 0% no-repeat padding-box;
+
+simple arrow down
+<svg id="Component_1080_6" data-name="Component 1080 – 6" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+  <rect id="Rectangle_171" data-name="Rectangle 171" width="16" height="16" rx="4" fill="#4880fb" opacity="0"/>
+  <path id="Path_1756" data-name="Path 1756" d="M17.192,11.5l-4.346,4.346L8.5,11.5" transform="translate(-5 -4)" fill="rgba(0,0,0,0)" stroke="#4e5567" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+</svg>
+
+edit
+<svg xmlns="http://www.w3.org/2000/svg" width="23" height="23" viewBox="0 0 23 23">
+  <g id="Group_3980" data-name="Group 3980" transform="translate(-1279.999 -152)">
+    <g id="Group_3979" data-name="Group 3979" transform="translate(600.039 -207.96)">
+      <rect id="Rectangle_171" data-name="Rectangle 171" width="23" height="23" transform="translate(679.96 359.96)" fill="#4880fb" opacity="0"/>
+      <path id="Path_687" data-name="Path 687" d="M10.983,18.437a.473.473,0,0,1-.336-.137l-3.57-3.57a.474.474,0,1,1,.672-.668L10.983,17.3l7.879-7.879a.474.474,0,1,1,.668.672L11.315,18.3A.474.474,0,0,1,10.983,18.437Z" transform="translate(678.655 358.102)" fill="#bbbfc9" stroke="#bbbfc9" stroke-width="1" opacity="0"/>
+    </g>
+    <path id="Path_1772" data-name="Path 1772" d="M13.261,7.075,6.683,13.654a2.754,2.754,0,0,1-1.279.724l-2.523.631a.551.551,0,0,1-.668-.668l.631-2.523a2.754,2.754,0,0,1,.724-1.279L10.145,3.96ZM14.819,2.4a2.2,2.2,0,0,1,0,3.115l-.78.778L10.924,3.181,11.7,2.4A2.2,2.2,0,0,1,14.819,2.4Z" transform="translate(1283.17 155.608)" fill="#4880fb"/>
+  </g>
+</svg>
+
+big arrow down
+<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
+  <g id="Group_5668" data-name="Group 5668" transform="translate(-395 -159)">
+    <circle id="Ellipse_245" data-name="Ellipse 245" cx="10" cy="10" r="10" transform="translate(395 159)" fill="#202020"/>
+    <path id="Path_1023" data-name="Path 1023" d="M0,4.061,4.171,0,8.342,4.061" transform="translate(409.073 171.078) rotate(180)" fill="none" stroke="#f5f6f8" stroke-width="1.8"/>
+  </g>
+</svg>
+
