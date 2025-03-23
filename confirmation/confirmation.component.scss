@@ -1,0 +1,65 @@
+:host {
+  border-radius: 8px;
+}
+
+.delete-dialog-container {
+  margin: 0px;
+  padding: 0px;
+  background: #fff;
+  width: 40vw;
+
+  .delete-dialog-header {
+    background: transparent linear-gradient(264deg, #ffffff 0%, #ffeae9 100%) 0%
+      0% no-repeat padding-box;
+    border-radius: 8px 8px 0px 0px;
+    padding: 12px;
+
+    .delete-dialog-title {
+      font: normal normal bold 17px Roboto;
+      letter-spacing: 0px;
+      color: #e65454;
+      margin: 0px;
+    }
+  }
+
+  .delete-dialog-content {
+    padding: 15px;
+
+    .delete-dialog-message {
+      margin: 0px;
+      font: normal normal normal 14px/21px Roboto;
+      letter-spacing: 0.28px !important;
+      color: #4e5567;
+    }
+  }
+
+  .delete-dialog-footer {
+    padding: 3px 15px 15px 15px;
+    gap: 10px;
+    display: flex;
+    justify-content: flex-end;
+
+    .cancel {
+      width: 87px;
+      height: 43px;
+      background: #edeff5 0% 0% no-repeat padding-box;
+      border-radius: 8px;
+      border: none;
+      font: normal normal normal 14px Roboto;
+      letter-spacing: 0px;
+      color: #4e5567;
+    }
+
+    .delete {
+      width: 83px;
+      height: 43px;
+      /* UI Properties */
+      background: #e65454 0% 0% no-repeat padding-box;
+      border-radius: 8px;
+      border: none;
+      font: normal normal normal 14px Roboto;
+      letter-spacing: 0px;
+      color: #ffffff;
+    }
+  }
+}

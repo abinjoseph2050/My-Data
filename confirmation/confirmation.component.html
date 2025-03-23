@@ -1,0 +1,26 @@
+<div class="delete-dialog-container">
+   <div class="delete-dialog-header">
+      <h1 class="delete-dialog-title">
+         {{confirmData.msg_data.title}}
+      </h1>
+   </div>
+   <div class="delete-dialog-content">
+      <p class="delete-dialog-message">
+         {{confirmData.msg_data.msg_1}}
+      </p>
+      <p class="delete-dialog-message">
+         {{confirmData.msg_data.msg_2}}
+      </p>
+   </div>
+   <div class="delete-dialog-footer">
+      <button class="cancel" (click)="dialogRef.close(true)">Cancel</button>
+      <!-- <button class="delete" (click)="dialogRef.close(true)">{{ "MODULES.ADMINISTRATION.PERSON.SETTINGS.DELETE" |translate }}</button> -->
+      @if(confirmData.type == 'delete'){
+      <app-button class="create-button" buttonLabel="Delete" btnColor="red"
+         (click)="dialogRef.close(false)"></app-button>
+      } @else {
+      <app-button class="create-button" buttonLabel="Reject" btnColor="red"></app-button>
+      }
+
+   </div>
+</div>
