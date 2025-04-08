@@ -1,0 +1,12 @@
+<div class="main-container">
+<img src="./img/one.svg">
+<img src="./img/two.svg">
+
+<div class="contents">
+    <p class="title">QE Maturity Assessment</p>
+    <p class="desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus, aperiam doloribus consectetur velit eaque nobis inventore quia nisi? Temporibus, saepe.</p>
+    <button>Start Assessment</button>
+</div>
+</div>
+
+https://cruip.com/venus/
