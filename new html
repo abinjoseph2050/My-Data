@@ -9,4 +9,45 @@
 </div>
 </div>
 
+.main-container{
+    height: 90vh;
+    background: #0b0d19;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Roboto;
+}
+
+.main-container img{
+    width: 100%;
+    height: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.contents{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 60vw;
+    z-index: 100;
+}
+
+.title{
+    font-size: 44px;
+    color: #fff;
+    font-weight: 600;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.desc{
+font-size: 20px;
+color: #606483;
+text-align: center;
+}
+
 https://cruip.com/venus/
